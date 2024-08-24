@@ -1,2 +1,5 @@
 Named Credential: Intended to secure and simplify authenticated API callouts to external systems, a named credential specifies the URL of a callout endpoint and its required authentication parameters in one definition. 
 To streamline your Apex code and simplify the setup of authenticated callouts, specify a named credential as the callout endpoint.  
+
+Salesforce Lightning Inspector: https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/inspector_use.htm
+The Chrome extension adds a Lightning tab to the DevTools menu. Use it to inspect different aspects of your app.
