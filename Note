@@ -1,0 +1,2 @@
+Named Credential: Intended to secure and simplify authenticated API callouts to external systems, a named credential specifies the URL of a callout endpoint and its required authentication parameters in one definition. 
+To streamline your Apex code and simplify the setup of authenticated callouts, specify a named credential as the callout endpoint.
