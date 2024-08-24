@@ -7,3 +7,12 @@ The Chrome extension adds a Lightning tab to the DevTools menu. Use it to inspec
 @future method: A future method runs in the background, asynchronously. You can call a future method for executing long-running operations, such as callouts to external Web services or any operation you’d like to run in its own thread, on its own time. 
 You can also use future methods to isolate DML operations on different sObject types to prevent the mixed DML error. Each future method is queued and executes when system resources become available. 
 That way, the execution of your code doesn’t have to wait for the completion of a long-running operation. A benefit of using future methods is that some governor limits are higher, such as SOQL query limits and heap size limits.
+To define a future method, simply annotate it with the future annotation, as follows.
+global class FutureClass
+{
+    @future
+    public static void myFutureMethod()
+    {   
+         // Perform some operations
+    }
+}
