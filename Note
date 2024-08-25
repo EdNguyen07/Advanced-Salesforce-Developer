@@ -1,9 +1,9 @@
 Named Credential: Intended to secure and simplify authenticated API callouts to external systems, a named credential specifies the URL of a callout endpoint and its required authentication parameters in one definition. 
 To streamline your Apex code and simplify the setup of authenticated callouts, specify a named credential as the callout endpoint.  
-
+================================================================
 Salesforce Lightning Inspector: https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/inspector_use.htm
 The Chrome extension adds a Lightning tab to the DevTools menu. Use it to inspect different aspects of your app.
-
+===============================================================
 @future method: A future method runs in the background, asynchronously. You can call a future method for executing long-running operations, such as callouts to external Web services or any operation you’d like to run in its own thread, on its own time. 
 You can also use future methods to isolate DML operations on different sObject types to prevent the mixed DML error. Each future method is queued and executes when system resources become available. 
 That way, the execution of your code doesn’t have to wait for the completion of a long-running operation. A benefit of using future methods is that some governor limits are higher, such as SOQL query limits and heap size limits.
@@ -16,3 +16,21 @@ global class FutureClass
          // Perform some operations
     }
 }
+===========================================================
+force:lightningQuickAction : Add the force:lightningQuickAction interface to a Lightning component to allow it to be used as a custom action in Lightning Experience or the Salesforce mobile app. 
+You can use these components as object-specific or global actions in both Lightning Experience and the Salesforce mobile app. 
+Example 
+<!--quickAdd.cmp-->
+<aura:component implements="force:lightningQuickAction">
+
+    <!-- Very simple addition -->
+
+    <lightning:input type="number" name="myNumber" aura:id="num1" label="Number 1"/> +
+    <lightning:input type="number" name="myNumber" aura:id="num2" label="Number 2"/>
+
+    <br/>
+    <lightning:button label="Add" onclick="{!c.clickAdd}"/>
+
+</aura:component>
+
+=============================================================
