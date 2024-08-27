@@ -36,3 +36,56 @@ Example
 =============================================================
 JavaScript Remoting
 Visualforce Remote
+
+=============================================================
+Apex Integration Services:    https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices
+Rest Service
+@HttpGet	
+Read: Reads or retrieves records.
+
+@HttpPost	
+Create: Creates records.
+
+@HttpDelete	
+Delete: Deletes records.
+
+@HttpPut	
+Upsert: Typically used to update existing records or create records.
+
+@HttpPatch	
+Update: Typically used to update fields in existing records.
+
+
+============================================================
+Apex Integration Services: 
+SOAP Service Apex can make callouts to SOAP web services using XML
+=============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
