@@ -60,6 +60,8 @@ Update: Typically used to update fields in existing records.
 Apex Integration Services: 
 SOAP Service Apex can make callouts to SOAP web services using XML
 =============================================================
+AggregateResult[] 
+=============================================================
 
 
 
