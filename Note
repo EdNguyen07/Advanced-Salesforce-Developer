@@ -69,8 +69,12 @@ upsert orders Order_Number__c;
 
 Bulk API
 
+============================================================
 
-
+SOQL with Big Objects, and query for index field.
+Fields that are Searchable are indexed.
+The following SOQL operations are not allowed in queries with big objects:
+The !=, LIKE, NOT IN, EXCLUDES, and INCLUDES operators aren’t valid in any query.
 
 
 
