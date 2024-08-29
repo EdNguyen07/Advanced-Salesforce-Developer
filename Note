@@ -76,6 +76,11 @@ Fields that are Searchable are indexed.
 The following SOQL operations are not allowed in queries with big objects:
 The !=, LIKE, NOT IN, EXCLUDES, and INCLUDES operators aren’t valid in any query.
 
+==============================================================
+
+Trigger governor limit per transactions
+https://help.salesforce.com/s/articleView?id=000386331&type=1
+
 
 
 
